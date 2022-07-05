@@ -1,0 +1,22 @@
+.header {
+    height: 30vh;
+    background-color: blue;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    text-align: center;
+}
+.header h1 {
+    color: white;
+}
+
+.homeWrapper {
+    height: 100vh;
+}
+
+.content {
+    margin-top: 10em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

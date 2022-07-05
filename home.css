@@ -1,24 +1,30 @@
-body {
-    margin: 0;
-}
-
-.bodyWrapper {
+body, html {
+    margin: 0 auto;
+    font-family: 'Barlow', sans-serif;
     height: 100vh;
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
-
 .headerWrapper {
-    background-color: blue;
+    background-color: #242582;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    min-height: 40vh;
-}
-
-.headerWrapper h1 {
-    margin: 0;
-    padding: 0;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
     color: white;
     text-align: center;
+}
+.headerWrapper h1 {
+    font-size: 3em;
+}
+.headerWrapper h2 {
+    font-size: 1.8em;
+}
+.footer {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
 }

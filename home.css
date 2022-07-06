@@ -88,4 +88,7 @@ button {
     .content h2 {
        margin: 70px 15px 30px 15px;
     }
+    .footer {
+        position: unset;
+    }
 }

@@ -38,7 +38,7 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 70vh;
+    height: 65vh;
 }
 
 .content h2 {
@@ -89,14 +89,17 @@ button {
     .poster img {
         border-radius: 16px;
     }
-    .content {
+    /* .content {
         margin-bottom: 2em;
-    }
+    } */
     .content h2 {
        margin: 70px 15px 30px 15px;
     }
-    .buttonWrapper {
+    /* .buttonWrapper {
         padding-top: 40px;
+    } */
+    .footer {
+        top: 40px;
     }
 }
 @media screen and (max-height: 700px) { 

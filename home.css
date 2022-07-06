@@ -2,12 +2,9 @@ body, html {
     margin: 0 auto;
     font-family: 'Barlow', sans-serif;
     height: 100vh;
-    width: 100%;
-}
-.bodyWrapper {
-    height: 100%;
     background-color: #fffbe7;
 }
+
 .headerWrapper {
     background-color: #242582;
     border-bottom-left-radius: 40px;
@@ -17,6 +14,7 @@ body, html {
     color: white;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
 }
 .headerWrapper h1 {
     font-size: 3em;
@@ -25,19 +23,17 @@ body, html {
     font-size: 1.8em;
 }
 .footer {
-    position: fixed;
     width: 100%;
-	left: 0;
-    bottom: 15px;
     font-size: 12px;
     font-weight: 600;
     text-align: center;
+    position: relative;
+    bottom: 10px;
 }
 .content {
     margin: 2em 0;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .poster {
@@ -47,4 +43,23 @@ body, html {
 .poster img {
     height: 100%;
     border-radius: 8px;
+}
+
+@media screen and (max-width: 500px) {
+    .headerWrapper {
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+    }
+    .headerWrapper h1 {
+        font-size: 20px;
+    }
+    .headerWrapper h2 {
+        font-size: 15px;
+    }
+    .poster {
+        height: 500px;
+    }
+    .poster img {
+        border-radius: 16px;
+    }
 }

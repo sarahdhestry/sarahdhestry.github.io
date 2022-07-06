@@ -34,6 +34,7 @@ body, html {
     bottom: 15px;
 }
 .content {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,6 +110,6 @@ button {
 }
 @media screen and (max-height: 785px) { 
     .buttonWrapper {
-        padding-top: 75px;
+        padding-top: 35px;
     }
 }

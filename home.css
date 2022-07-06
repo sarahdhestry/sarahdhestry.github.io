@@ -8,11 +8,11 @@ body, html {
     background-color: #242582;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    height: 25vh;
     display: flex;
     justify-content: center;
     color: white;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .headerWrapper h1 {
     font-size: 3em;

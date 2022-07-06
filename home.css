@@ -29,11 +29,11 @@ body, html {
     font-size: 12px;
     font-weight: 600;
     text-align: center;
-    position: fixed;
-    bottom: 10px;
+    position: relative;
+    top: 50px;
+    bottom: 15px;
 }
 .content {
-    margin: 2em 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,11 +56,15 @@ body, html {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
+.buttonWrapper {
+    width: 100%;
+    text-align: center;
+}
+
 button {
     padding: 10px;
     border: unset;
     border-radius: 10px;
-    margin-top: 30px;
     background-color: #242582;
     color: white;
     width: 300px;
@@ -85,10 +89,23 @@ button {
     .poster img {
         border-radius: 16px;
     }
+    .content {
+        margin-bottom: 2em;
+    }
     .content h2 {
        margin: 70px 15px 30px 15px;
     }
-    .footer {
-        position: unset;
+    .buttonWrapper {
+        padding-top: 40px;
+    }
+}
+@media screen and (max-height: 700px) { 
+    .poster {
+        height: 350px;
+    }
+}
+@media screen and (max-height: 785px) { 
+    .buttonWrapper {
+        padding-top: 75px;
     }
 }
